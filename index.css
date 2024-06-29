@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #dadada;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow-x: hidden;
+    position: relative;
+    background-color: #222;
+}
+#body{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#full-scr-nav{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    position: absolute;
+    top: -100vh;
+    color: #222;
+    transition: all ease 0.9s;
+    padding: 200px 150px;
+    z-index: 99;
+}
+#full-scr-nav h1{
+    font-size:200px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #222;
+    letter-spacing: -1.5;
+    text-transform: uppercase;
+}
+#nav{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #828181;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    
+}
+#nav-part2 i{
+    font-size: 30px;
+    margin-left: 50px;
+    transition: all ease 0.9s;
+    cursor: pointer;
+}
+#nav h2{
+    text-transform: uppercase;
+    transition: all ease 0.9s;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(237, 150, 19);
+}
+#nav h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#page1{
+    min-height: 82vh;
+    width: 100vw;
+    position: relative;
+}
+#page1 h1{
+    position: absolute;
+    left: 12%;
+    top: 21%;
+    font-size: 13vw;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+}
+#page1 h2{
+    position: absolute;
+    left: 18%;
+    top: 54%;
+    width: 26%;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    text-align: end;
+    color: rgba(75, 252, 146, 0.468);
+}
+#page1 h3{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    width: 10%;
+    font-size: 0.8vw;
+    line-height: 2.5vw;
+}
+#page2 img{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.8);
+}
+#page2{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20vh;
+}
+#page2 h1{
+    font-size: 46px;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    transform-origin: 100% 100%;
+    opacity: 1;
+    transform: rotateX(270deg);
+    margin-right: auto;
+    
+}
+ #h11{
+    margin-top: 20vh;
+}
+#page2 span{
+    font-family: cursive;
+    font-size: 30px;
+}
+#page3{
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+}
+#page4{
+    height: 89vh;
+    width: 100%;
+    position: relative;
+    padding: 60px 140px;
+    
+}
+#page4 h1{
+    font-size: 7.8vw;
+   
+
+}
+#page5{
+    height: 130vh;
+    width: 100vw;
+    /*background-color: red;*/
+    position: relative;
+}
+#page5-elems{
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#page5-elems h1{
+    width: 70%;
+   /* background-color: yellow;*/
+    height: 100%;
+    font-size: 80px;
+    border: 1px solid #d1d1d1;
+    padding: 10px 80px;
+
+}
+
+#page5-elems h2{
+    width: 30%;
+    /*background-color: orange;*/
+    height: 100%;
+    font-size: 25px;
+    padding: 40px 60px;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+}
+#page5-content{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1587465511660-05c929e0e874?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+#page5-content h1{
+    font-size: 3.6vw;
+    width: 50%;
+    text-align: center;
+    line-height: 3vw;
+}
+
+#page5-content span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3 vw;
+}
+#page5-content h4{
+    font-size: 1.1vw;
+    width: 30%;
+    margin: 50px;
+}
+
+#page5-content img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70%;
+}
+#page6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#page6 .slide1-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+
+}
+#page6 .slide2-of-h1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor:default ;
+
+}
+#page6 .slide2-of-h1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .slide1-of-h1::-webkit-scrollbar{
+    display: none;
+}
+#page6 .slide2-of-h1 h1{
+    transform: translateX(-100%);
+}
+#page6 h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 23vh;
+
+}
+#page6 h1 .one2{
+    color: transparent;
+    -webkit-text-stroke: 0.5px  #dadada;
+}
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    padding: 180px 50px;
+    text-align: center;
+}
+#page7 h3{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 3vw;
+    width: 45%;
+}
+#page7 h3 span{
+    font-family:serif ;
+    font-size: 3.5vw;
+}
+#page7-elem{
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 45vh;
+    margin-top: 5vh;
+    justify-content: space-around;
+}
+#page7-elem #elem1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page7-elem #elem2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page7-elem #elem1 h1{
+    font-size: 50px;
+    z-index: 99;
+    position: relative;
+}
+#page7-elem #elem2 h1{
+    font-size: 50px;
+    z-index: 99;
+    position: relative;
+
+}
+#page7-elem #elem1 img{
+    position: absolute;
+    height: 32vh;
+    width: 14vw;
+    opacity: 0;
+    transition: opacity ease-in 0.5s;
+    transform: rotate(10deg);
+}
+#page7-elem #elem2 img{
+    position: absolute;
+    height: 32vh;
+    width: 14vw;
+    opacity: 0;
+    transition: opacity ease-in 0.5s;
+    transform: rotate(-10deg);
+}
